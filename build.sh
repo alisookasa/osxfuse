@@ -1159,7 +1159,7 @@ cat >> "$md_dist_out" <<__END_DISTRIBUTION
             switch (package)
             {
                 case '$M_PKGBASENAME_CORE': return true;
-                case '$M_PKGBASENAME_PREFPANE': return true;
+                case '$M_PKGBASENAME_PREFPANE': return false;
                 default: return false;
             }
         }
